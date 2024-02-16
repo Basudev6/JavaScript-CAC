@@ -23,3 +23,25 @@ let myObj={
 const fun = function(){
     console.log("hello world")
 }
+
+// *******************************************
+
+// Stack(Premitive), Heap(Non-Primitive)
+
+let myName = "Basudev"
+let anotherName = myName
+anotherName = "Shyam"
+
+console.log(myName)
+console.log(anotherName)
+
+let userOne={
+    id:1,
+    name:"ram"
+}
+let userTwo= userOne
+
+userTwo.name = "Hari"
+
+console.log(userOne.name)
+console.log(userTwo.name)
